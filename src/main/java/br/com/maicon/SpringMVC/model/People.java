@@ -16,6 +16,16 @@ public class People {
 
     private String email;
 
+    public People() {
+    }
+
+    public People(Long id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+    }
+
+
     public void setId(Long id) {
         this.id = id;
     }
